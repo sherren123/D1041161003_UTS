@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name1"><b>Materi Activity</b></string>
+    <string name="Materi1">Sebuah komponen aplikasi yang menyediakan layar yang digunakan pengguna untuk berinteraksi guna melakukan sesuatu, misalnya memilih nomor ponsel, mengambil foto, mengirim email, atau menampilkan peta. Tiap aktivitas diberi sebuah jendela untuk menggambar antarmuka penggunanya. Jendela ini biasanya mengisi layar, namun mungkin lebih kecil daripada layar dan mengambang di atas jendela lain.</string>
+
+    <string name="app_name2"><b>Materi Intent</b></string>
+    <string name="Materi2">Intent adalah sebuah kelas dalam programming Android yang berfungsi untuk perpindahan halaman. Intent juga merupakan suatu objek yang terdapat dalam suatu activity dimana objek tersebut dapat komunikasi dengan activity yang lain, baik activity pada fungsi internal android misal seperti memanggil activity dalam satu package atau beda package yang masih berada dalam satu project. \n</string>
+
+    <string name="app_name3"><b>Materi Service</b></string>
+    <string name="Materi3">Service adalah sebuah komponen aplikasi yang bisa melakukan operasi yang berjalan lama di latar belakang dan tidak menyediakan antarmuka pengguna. Komponen aplikasi lain bisa memulai layanan dan komponen aplikasi tersebut akan terus berjalan di latar belakang walaupun pengguna beralih ke aplikasi lain. Selain itu, komponen bisa mengikat ke layanan untuk berinteraksi dengannya dan bahkan melakukan komunikasi antarproses (IPC). Misalnya, layanan mungkin menangani transaksi jaringan, memutar musik, melakukan file I/O, atau berinteraksi dengan penyedia materi dari latar belakang.</string>
+
+    <string name="app_name4"><b>Materi Content Provider</b></string>
+    <string name="Materi4">Content provider adalah set data yang dibungkus kedalam bentuk custom API untuk read maupun write. Content provider merupakan cara terbaik untuk berbagi data antar aplikasi. Content provider merupkan interface yang provided methode insert(), update(), delete(), query() untuk akses data aplikasi. Penamaan URI untuk content provider android  diawali dengan content://.</string>
+
+    <string name="app_name5"><b>Materi Boradcast Receiver</b></string>
+    <string name="Materi5">BroadcastReceiver digunakan untuk menerima pesan jika ada perubahan dari suatu sistem, misalnya aplikasi alarm, sistem akan mendeteksi perubahan pada waktu yang telah ditentukan, jika waktu tesebut berada di waktu yang telah ditentukan, maka BroadcastReceiver akan menerima pesan dan membunyikan alarm tersebut. method turunan dari BroadcastReceiver, yaitu onReceive(), method ini akan menerima setiap berubahan dari sistem, misalnya pada contoh yang kita buat, yaitu menampilkan pesan atau perubahan pada intent, Fungsi getAction(), digunakan untuk melihat nama filter yang dibroadcast dari Intent, jika muncul nama tersebut, maka itu artinya berhasil.</string>
+
+</resources>

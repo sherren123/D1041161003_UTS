@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity"
+    android:background="#FFEB3B">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Materi2"
+        android:id="@+id/subTitle"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        android:background="#DF83F0"
+        android:text="@string/app_name2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subTitle"
+        android:id="@+id/subTitleDetail"
+        android:layout_marginTop="30dp"
+        android:background="#DF83F0"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="@string/Materi2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LINK"
+        android:id="@+id/Materi2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
